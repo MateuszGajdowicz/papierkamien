@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(231, 164, 126);
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.PlayerDiv, .BotDiv {
+    width: 30%;
+    height: 80%;
+    background-color: rgb(231, 198, 167);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+
+}
+h1{
+    position: absolute;
+    font-size: 9em;
+}
+h2{
+    font-size: 3em;
+}
+
+.ButtonDiv {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+button {
+    width: 25%;
+    height: 40%;
+    font-size: 5em;
+    border-radius: 100px;
+}
+.movePlayer, .moveBot{
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    background-color: wheat;
+    font-size: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movePlayer{
+    left: 30%;
+}
+.moveBot{
+    right: 30%;
+}
+.Victory{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 40%;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
